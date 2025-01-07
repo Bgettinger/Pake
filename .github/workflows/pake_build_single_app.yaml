@@ -17,7 +17,7 @@ on:
       url:
         description: 'App URL'
         required: true
-        default: 'https://twitter.com/'
+        default: 'https://etade.com/'
   workflow_call:
     inputs:
       name:
@@ -29,7 +29,7 @@ on:
         description: 'App Title'
         required: true
         type: string
-        default: 'Twitter'
+        default: 'etrade'
       name_zh:
         description: 'App Name in Chinese'
         required: true
@@ -39,7 +39,7 @@ on:
         description: 'App URL'
         required: true
         type: string
-        default: 'https://twitter.com/'
+        default: 'https://etrade.com/'
 
 jobs:
   build_single_app:
